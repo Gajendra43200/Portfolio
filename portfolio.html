@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            /* font-family: 'Merriweather', serif; */
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+            font-style: bold;
+            /* background-image: linear-gradient(red,yellow); */
+
+        }
+      .container {
+        /* border: 2px solid black; */
+        position: fixed;
+
+      
+      }
+      body{
+        overflow-x: hidden;
+      }
+      .left {
+        color: white;
+        display: inline-block;
+        padding-top: 10PX;
+        margin-left: 100px;
+        width: 200px;
+        /* border: 2px solid red; */
+        /* padding: 9px; */
+        position: fixed;
+      }
+      .right {
+        color: white;
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        /* border: 2px solid red; */
+        width: 280px;
+        position: fixed;
+      }
+      ul {
+        display: flex;
+        position: absolute;
+        left: -190px;
+        gap: 20px;
+        list-style: none;
+      }
+     .di {
+        /* display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        top: 56px; */
+        /* border: 2px solid red; */
+        background-color: white;
+        margin: 20px;
+        /* display: flex; */
+      }
+     
+      .portfolio{
+        margin: auto 10px;
+        padding: 100px;
+        /* border: 2px solid red; */
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+      }
+
+     
+      .tl h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 30px;
+      }
+      .im{
+        display: flex;
+        margin: auto;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        /* height: 600px; */
+        /* border: 2px solid rgb(17, 13, 13); */
+        /* border-radius: 40px; */
+        background-image: url(./PicsArt_03-23-09.23.52\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        /* height: 500px; */
+      }
+      .hh,h4{
+        /* margin: auto; */
+        padding-top: 80px;
+        margin-right: 2px;
+      }
+       .im2.img{
+        border: 2px solid rgb(17, 13, 13);
+        border-radius: 40px;
+      } 
+      .boxx{
+        border: 2px solid white;
+        display: flex;
+        /* margin-left: 300px; */
+        margin: auto;
+        justify-content: center;
+        align-self: center;
+      }
+      .box{
+        height: 300px;
+        width: 300px;
+        color: white;
+        border: 1px solid red;
+        
+      }
+      #box1 ,p, h2{
+        padding: 10px;
+      }
+      #box2 ,p, h2{
+        padding: 10px;
+      }
+      #box3 ,p, h2{
+        padding: 10px;
+      }
+      #box2{
+        margin: 0px 4px;
+        background-color: rgb(233, 20, 37);
+
+      }
+      #box1{
+        margin: 0px 4px;
+        background-color: rgb(10, 116, 219);
+
+      }
+      #box3{
+        margin: 0px 4px;
+        background-color: rgb(39, 51, 119);
+      }
+      .my{ 
+        /* border: 2px  solid red; */
+           display: flex;
+           margin: auto;
+           align-items: center;
+           justify-content: center;
+           margin: 40px;
+      }
+      .foot{
+        border: 2px solid red;
+        /* margin-top: 80PX; */
+      }
+      .manfooter footer{
+        display: flex;
+        /* height: 500px; */
+        width: 100%; 
+        /* margin-left: 0px; */
+         /* margin: auto;
+         margin-top: 40px;
+        justify-content: center;
+        align-item
+        s: center;  */
+      }
+      .manfooter{
+        /* display: flex; */
+        width: 100%;
+        /* height: 500px; */
+      }
+      .com h2{
+        /* float: left; */
+        /* margin-left: 20px; */
+        margin-left: 10px;
+      }
+      .com h3{
+        /* float: left; */
+        /* margin-left: 20px; */
+        /* margin-left: 40px; */
+        padding: 0px;
+      }
+      .get h2{
+        margin-left: 240px;
+      }
+      .get h3{
+        padding: 5px;
+        margin-left:250px; 
+      }
+      .onlin h2{
+        margin-left: 240px;
+      }
+      .onlin h3{
+        padding: 5px;
+        margin-left: 250px;
+      }
+      .follow h2{
+        margin-left: 240px;
+      }
+      div .co{
+        margin: 20px;
+      }
+      div .icon{
+        margin-left: 250px;
+
+      }
+      footer{
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left"><h3>Diogo Correio</h3> </div>
+      <nav class="right">
+        <ul>
+          <li><h3>ABOUT ME</h3></li>
+          <li><h3>PORTFOLIO</h3></li>
+          <li><h3>IMPOSSIBLE LIST</h3></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="im">
+         
+      
+        <div class="im2">
+            <img src="./PicsArt_03-23-09.23.52 (1).jpg"  alt="" style="width: 100px; height: 100px; border:2px solid green ; border-radius: 50px ;" ><br>
+        </div>
+           <div>
+            <h1 style="font-size: 50px;" >Diogo Correia</h1>
+           </div>
+           <div>
+            <h3>Student, Developer & Runner</h3>
+           </div>
+           <div>
+            <span class="fa-stack">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-twitter  fa-stack-1x"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <!-- <i class="fa fa-camera fa-stack-1x - 1y"></i> -->
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-android  fa-stack-1x" style="color:red;"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <!-- <i class="fa fa-camera fa-stack-1x - 1y"></i> -->
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-apple  fa-stack-1x" style="color:red;"></i>
+            </span>
+            <i class="fa fa-spinner fa-spin"></i>
+           </div>
+        
+     
+    </div>
+      
+      
+    
+    <div class="di">
+    
+        <h1>hyy</h1> <br>
+         <strong style="font-size: 25px;  font-weight: 10px;  font-style: italic;"> I'm Diogo Torres Correia from Portugal <br>
+            I love programming, as well as running, taking photos and learning new <br>
+            things Feel free to get in touch or take a look at my past work below.</strong>
+      
+    </div>
+    <div class="portfolio">
+        <h1>PORTFOLIO</h1>
+    </div>
+    <div class="my">
+        <h1>My top projects</h1>
+    </div>
+
+    <div class="boxx">
+        <div class="box" id="box1"> <h2>Triton</h2> <br>
+           <p> Triton is a Spigot plugin for Minecraft that enables a Minecraft server to send messages in the player's language.
+            This was my first premium plugin on Spigot and I've put a lot of work and effort into it! </p></div>
+        <div class="box" id="box2">
+            <h2>Craftathon</h2> <br>
+           <p> Craftathon is a weekend-long charity event that managed to raise $7,599 for Child's Play Charity in two events (2017 and 2018). I was mainly involved in creating and testing the donation and ticket system. </p></div>
+        <div  class="box" id="box3"><h2>Livraria e Papelaria Espaço</h2><br>
+           <p> Livraria e Papelaria Espaço is a local bookstore in my area. I've help built their internet presence by coding a webstore as well as providing hosting and email services.
+            Furthermore, I've coded some tools that helped speed labour-intensive tasks in-store.</p></div>
+    </div>
+    <div class="tl">
+        <h2>Timeline</h2>
+    </div>
+    <div class="manfooter">
+    <footer class="foot">
+      <!-- <p>Author: Hege Refsnes<br> -->
+        <div class="com">
+          <h2>Company</h2>
+          <!-- <div class="comm"> -->
+            <h3 class="co"> About Us</h3> 
+           <h3 class="co"> Our Services</h3> 
+            <h3 class="co">Privacy Policy</h3>
+            <h3 class="co">Affiliate Program</h3>
+           
+          <!-- </div> -->
+
+        </div>
+        <div class="get">
+          <h2>Get Help</h2>
+          <h3 class="ge">Shipping </h3> 
+          <h3 class="ge"> Returns</h3> 
+           <h3 class="ge">Order Status</h3>
+           <h3 class="ge">Payment Options</h3>
+
+        </div>
+        <div class="onlin">
+          <h2>Online Shop</h2>
+          <h3 class="o">Watch</h3> 
+          <h3 class="o"> Bag</h3> 
+           <h3 class="o">Shoes</h3>
+           <h3 class="o"></h3>
+
+        </div>
+        <div class="follow">
+          <h2>Follow Us</h2>
+        
+        <div class="icon">
+         <span class="fa-stack">
+           <i class="fa fa-circle-thin fa-stack-2x"></i>
+           <i class="fa fa-twitter  fa-stack-1x"></i>
+         </span>
+         <span class="fa-stack fa-lg">
+           <!-- <i class="fa fa-camera fa-stack-1x - 1y"></i> -->
+           <i class="fa fa-circle-thin fa-stack-2x"></i>
+           <i class="fa fa-android  fa-stack-1x" style="color:red;"></i>
+         </span>
+         <span class="fa-stack fa-lg">
+           <!-- <i class="fa fa-camera fa-stack-1x - 1y"></i> -->
+           <i class="fa fa-circle-thin fa-stack-2x"></i>
+           <i class="fa fa-apple  fa-stack-1x" style="color:red;"></i>
+         </span>
+         <i class="fa fa-spinner fa-spin"></i>
+        </div>
+     
+  
+
+        </div>
+      </footer>
+    </div>
+   
+    
+
+  </body>
+</html>
